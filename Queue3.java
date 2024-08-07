@@ -77,17 +77,17 @@ public class Queue3 {
     }
 
     public static void main(String[] args) {
-        Queue q = new Queue();
-        q.add(1);
-        q.add(2);
-        q.add(3);
-        q.add(4);
-        q.add(5);
-        q.add(6);
+        // Queue q = new Queue();
+        Queue.add(1);
+        Queue.add(2);
+        Queue.add(3);
+        Queue.add(4);
+        Queue.add(5);
+        Queue.add(6);
 
-        q.print();
-        q.remove();
-        q.print();
+        Queue.print();
+        Queue.remove();
+        Queue.print();
 
     }
 }
