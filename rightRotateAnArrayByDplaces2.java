@@ -50,10 +50,10 @@ public class rightRotateAnArrayByDplaces2 {
          arr[i] = sc.nextInt();
       }
       printArray(arr);
-      System.out.println("Enter the value of d(i.e., By how many places you want the elements to left rotate? )");
+      System.out.println("Enter the value of d(i.e., By how many places you want the elements to right rotate? )");
       int d = sc.nextInt();
       rightRotate(arr, n, d);
-      System.out.println("The array elements after left rotation by d places: ");
+      System.out.println("The array elements after right rotation by d places: ");
       printArray(arr);
    }
 }
@@ -65,9 +65,9 @@ Enter the elements of the array:
 1 2 3 4 5 6 7
 The array elements are: 
 1 2 3 4 5 6 7 
-Enter the value of d(i.e., By how many places you want the elements to left rotate? )
+Enter the value of d(i.e., By how many places you want the elements to right rotate? )
 3
-The array elements after left rotation by d places:
+The array elements after right rotation by d places:
 The array elements are:
 5 6 7 1 2 3 4
 */
