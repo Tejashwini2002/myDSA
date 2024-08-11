@@ -1,4 +1,5 @@
 // Question: Left rotate array by d places
+// Approach 1:Brute-force approach: By making use of a temporary array
 import java.util.*;
 
 public class leftRotateArrayByDplaces {
